@@ -9,6 +9,6 @@
 
 CREATE TABLE  IF NOT EXISTS users(fullname VARCHAR NOT NULL, 
 				   username VARCHAR(15) UNIQUE NOT NULL, 
-				   email VARCHAR PRIMARY KEY NOT NULL,
+				   email VARCHAR PRIMARY KEY  NOT NULL,
 				   password VARCHAR NOT NULL,
 				   created_at TIMESTAMP DEFAULT now());
